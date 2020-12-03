@@ -1,0 +1,20 @@
+var nAgera = {
+name:'nnnn',
+manufacturer:{
+name:"kk"
+location:"sweden"
+},
+topSpeed:429,
+color:"Black ",
+sploilers:false,
+//we want to ad d functionality
+applyBreaks:function(){
+setTimeout(function(){console.log('car stopped');},5000)
+}
+
+}
+//console.log(nameofobj.key)
+console.log(nAgera.name)
+console.log(nAgera.topSpeed)
+console.log(nAgera.color)
+console.log(document.getElementById("one"))
